@@ -20,7 +20,7 @@ getDataArgonaute()
 )
 
 const postData = async (e) => {
-  e.preventDefault()
+  // e.preventDefault()
   const resData = await axios.post('http://localhost:4242/argonaute',{
 newMember
   })
@@ -48,7 +48,7 @@ return(
     id="name" 
     name="name" 
     type="text" 
-    placeholder="Charalampos" />
+    placeholder="Entrez votre nom" />
     <button type="submit">Envoyer</button>
   </form>
   
